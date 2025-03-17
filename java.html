@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Gestione Animali Domestici</title>
+  </head>
+  <body>
+    <h2>Inserisci un nuovo animale domestico</h2>
+    <form id="petForm">
+      <label for="petName">Nome dell'animale:</label>
+      <input type="text" id="petName" required /><br />
+
+      <label for="ownerName">Nome del proprietario:</label>
+      <input type="text" id="ownerName" required /><br />
+
+      <label for="species">Specie:</label>
+      <input type="text" id="species" required /><br />
+
+      <label for="breed">Razza:</label>
+      <input type="text" id="breed" required /><br />
+
+      <button type="submit">Aggiungi Pet</button>
+    </form>
+
+    <h2>Lista Animali</h2>
+    <ul id="petList"></ul>
+
+    <script src="secondoEsercizo.js"></script>
+  </body>
+</html>
